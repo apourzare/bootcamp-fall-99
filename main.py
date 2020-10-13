@@ -215,10 +215,10 @@
 # for follower in followers:
 #   print(follower)
 
-# def get_info(skill='developer',**kwargs):
-#   for key, value in kwargs.items():
-#     print("%s : %s -> %s" %(key, value, skill))
+def get_info(skill='developer',**kwargs):
+  for key, value in kwargs.items():
+    print("%s : %s -> %s" %(key, value, skill))
 
-# get_info('Designer', Name='Amin', Age=31, Gender='Male')
+get_info('Designer', Name='Amin', Age=31, Gender='Male')
 
 
